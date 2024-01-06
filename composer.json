@@ -1,0 +1,32 @@
+{
+  "name": "xtenstack/yii2-apexcharts",
+  "description": "ApexCharts.js for yii2",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "widget",
+    "chart",
+    "charts",
+    "apexcharts",
+    "diagram"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Travis Saron",
+      "email": "admin@xten.au",
+      "homepage": "http://stack.xten.au",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": ">=2.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "xtenstack\\apexcharts\\": ""
+    }
+  }
+}
